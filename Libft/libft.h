@@ -13,10 +13,11 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include "../fdf.h"
+# include <stddef.h>
 # include <limits.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include "../fdf.h"
 
 typedef struct s_list
 {
